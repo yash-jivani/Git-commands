@@ -33,7 +33,6 @@ git rm <fileName> :
 
 git mv <old-fileName> <new-fileName> :
     rename file
- 
 
 git rm --cached <fileName> :
     for untracking file 
@@ -43,3 +42,32 @@ git rm --cached <fileName> :
         ...ager file "tracked" hai aur usse "untracked" karke gitignore me mention karna hai 
         ...tab isss command ka use hota hai
 
+git log :
+    display commit history
+
+git log -<GvnNum> :
+    display last GvnNum commits 
+
+git log --stat :
+    short summary of commits
+
+git log --pretty=oneline :
+    display commit-code and commit-msg
+
+git log --pretty=short :
+    display commit author, commit-code, commit msg
+
+git log --since=2.days :
+    display commits of last 2 days
+
+git log --since=2.weeks :
+    display commits of last 2 weeks
+
+git log --since=2.months :
+    display commits of last 2 months
+
+git log --since=2.years :
+    display commits of last 2 years
+
+git commit --amend :
+    modify marge code + commit msg
