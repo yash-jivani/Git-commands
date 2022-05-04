@@ -19,8 +19,11 @@ git log :
 git clone <link>: 
     clone repo to local machine
 
+git diff :
+    compare stage area with working area ( stage code/area vs modified code/area )
 
-
+git diff --staged :
+    compare last commit with current stage area
 
 
 
