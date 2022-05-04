@@ -71,3 +71,23 @@ git log --since=2.years :
 
 git commit --amend :
     modify marge code + commit msg
+    
+git restore --staged <fileName> :
+    unstage file
+
+git checkout -- <FileName> OR git restore <fileName> :
+    modify file to PREVIOUS commit (only for unstaged files {before git add command} )
+
+git checkout -f :
+    modify all file to PREVIOUS commit
+
+
+
+
+
+
+
+
+
+
+    
