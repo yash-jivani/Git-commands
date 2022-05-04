@@ -1,0 +1,26 @@
+git init : 
+    Initialize git repo
+
+git status :
+    status
+
+git add --a OR git add . :
+    add all files to stage 
+
+git commit -m 'commit msg' :
+    commit changes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
