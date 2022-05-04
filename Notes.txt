@@ -81,6 +81,8 @@ git checkout -- <FileName> OR git restore <fileName> :
 git checkout -f :
     modify all file to PREVIOUS commit
 
+git remote add <remoteName> <URL> :
+    add/create remote
 
 
 
