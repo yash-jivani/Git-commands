@@ -7,6 +7,9 @@ git status :
 git add --a OR git add . :
     add all files to stage 
 
+git add <fileName> :
+    add <fileName> to stage
+
 git commit -m 'commit msg' :
     commit changes
 
