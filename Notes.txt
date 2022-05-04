@@ -25,6 +25,8 @@ git diff :
 git diff --staged :
     compare last commit with current stage area
 
+git commit -a -m 'direct commit' :
+    direct commit without stage area (only for tracked files {modified/edited file})
 
 
 
