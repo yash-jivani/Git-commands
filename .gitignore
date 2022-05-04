@@ -1,0 +1,17 @@
+# ? NOTE : blank/empty folder ko git ignore karta hai
+
+# ignore xyz dir
+xyz
+
+# ignore tmp.txt file
+tmp.txt
+
+# ignore all .log filesx 
+*.log 
+
+# ignore all xlsx file from xyz2 dir
+xyz2/*.xlsx
+
+# * NOTE : xyz(ignore all xyz dir/file) =! /xyz(ignore all outer xyz dir/file)
+
+
