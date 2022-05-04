@@ -28,11 +28,18 @@ git diff --staged :
 git commit -a -m 'direct commit' :
     direct commit without stage area (only for tracked files {modified/edited file})
 
+git rm <fileName> :
+    remove file 
 
+git mv <old-fileName> <new-fileName> :
+    rename file
+ 
 
-
-
-
-
-
+git rm --cached <fileName> :
+    for untracking file 
+  senario : 
+        gitignore me sirf "untracked file" mention hoti hai (jisko ignore karna hai)
+        ..."tracked file" ko gitignore me dalne se koi changes nhi hoge (file ignore nhi hogi)
+        ...ager file "tracked" hai aur usse "untracked" karke gitignore me mention karna hai 
+        ...tab isss command ka use hota hai
 
