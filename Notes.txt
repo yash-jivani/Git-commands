@@ -84,12 +84,8 @@ git checkout -f :
 git remote add <remoteName> <URL> :
     add/create remote
 
-
-
-
-
-
-
-
-
-    
+git config --global alias.<aliasName> '<command>'
+    for creating alias
+    example : 
+        git config --global alias.cmt 'commit' 
+        command -> git cmt -m 'msg'
