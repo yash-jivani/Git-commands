@@ -113,3 +113,13 @@ git branch -d <branchName> :
 git branch -D <branchName> :
     delete branch (gives no err) 
 
+git push <remoteName> <branchName> :
+    push branch 
+    example : 
+        git checkout <brachName> 
+        git push origin <brachName>
+
+git push <remoteName> <brachName> :
+    delete branch on server
+    example :
+        git push -d origin <branchName>
