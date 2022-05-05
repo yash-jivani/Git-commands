@@ -89,3 +89,12 @@ git config --global alias.<aliasName> '<command>'
     example : 
         git config --global alias.cmt 'commit' 
         command -> git cmt -m 'msg'
+
+git branch :
+    display branch
+
+git checkout -b <branchName> :
+    create & switch to <branchName>
+
+git checkout <branchName> :
+    switch to <branchName> branch
