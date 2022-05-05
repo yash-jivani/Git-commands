@@ -98,3 +98,16 @@ git checkout -b <branchName> :
 
 git checkout <branchName> :
     switch to <branchName> branch
+    NOTE : create ki hui 'branch me changes ko commit nhi kya hoga'...
+            ...to vo file/dirs 'master branch me bhi show karenge'
+
+git marge <branchName> :
+    marge branch with working(current) branch
+
+git branch -v :
+    display all branch with lastcommit, commit hash and commit msg
+
+
+
+
+    
