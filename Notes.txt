@@ -107,7 +107,9 @@ git marge <branchName> :
 git branch -v :
     display all branch with lastcommit, commit hash and commit msg
 
-yash
-this is change in master
-yash
-123
+git branch -d <branchName> :
+    delete branch (gives err if brach is not merged)
+
+git branch -D <branchName> :
+    delete branch (gives no err) 
+
