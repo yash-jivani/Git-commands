@@ -107,7 +107,4 @@ git marge <branchName> :
 git branch -v :
     display all branch with lastcommit, commit hash and commit msg
 
-
-
-
-    
+yash
