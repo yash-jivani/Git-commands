@@ -89,3 +89,5 @@ git config --global alias.<aliasName> '<command>'
     example : 
         git config --global alias.cmt 'commit' 
         command -> git cmt -m 'msg'
+
+yash
