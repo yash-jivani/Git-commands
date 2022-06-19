@@ -123,3 +123,11 @@ git push <remoteName> <brachName> :
     delete branch on server
     example :
         git push -d origin <branchName>
+
+for undo/delete commits 
+step 1. git reset --soft HEAD~<No.of Commits> :
+    example : git reset --soft HEAD~2
+
+step 2. git push origin +<branchname> --force :
+    (push local to master) 
+    example : git push origin +master --force
